@@ -1,8 +1,42 @@
 ---
-title: "About This Website"
+title: "Ejemplo De Densidad"
 ---
 
-library(png)
-library(grid)
-img <- readPNG("mateo.png")
-grid.raster(img)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+```
+
+
+
+Empezamos hallando el area de un intervalo (150 a 190)
+
+```{r}
+regionX=seq(150,190,0.01)            
+xP <- c(150,regionX,190)           
+yP <- c(0,dnorm(regionX,170,12),0)   
+curve(dnorm(x,170,12),xlim=c(130,210),yaxs="i",ylim=c(0,0.035),ylab="f(x)",
+      main='Densidad') 
+polygon(xP,yP,col="cyan")
+box()
+```
+ 
+ 
+ 
+ahora con un intervalo de  (150 a 170) 
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r}
+regionX=seq(150,170,0.01)            
+xP <- c(150,regionX,170)           
+yP <- c(0,dnorm(regionX,170,12),0)   
+curve(dnorm(x,170,12),xlim=c(130,210),yaxs="i",ylim=c(0,0.035),ylab="f(x)",
+      main='Densidad') 
+polygon(xP,yP,col="cyan")
+box()
+```
+

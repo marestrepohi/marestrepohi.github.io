@@ -4,6 +4,9 @@ title: "Mis Trabajos "
 
 
 ##PROYECTO FINAL ESTADISTICA DESCRIPTIVA Y EXPLORATORIA
+```{r, include=FALSE}
+
+```
 
 
 
