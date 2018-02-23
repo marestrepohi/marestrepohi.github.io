@@ -1,0 +1,8 @@
+---
+title: "About This Website"
+---
+
+library(png)
+library(grid)
+img <- readPNG("mateo.png")
+grid.raster(img)

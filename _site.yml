@@ -1,12 +1,18 @@
-name: "my-website"
+name: "Mateo Restrepo Higuita"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Mateo Restrepo Higuita"
   left:
-    - text: "Home"
+    - text: "Sobre mi"
+      type: inverse
+      icon: fa-user 
       href: index.html
-    - text: "About"
+    - text: "Trabajos"
+      icon: fa-line-chart
       href: about.html
+    - text: "Densidades"
+      href: densidades.html
+
 output:
   html_document:
     theme: united

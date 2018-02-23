@@ -1,5 +1,10 @@
 ---
-title: "About This Website"
+title: "Mis Trabajos "
 ---
 
-Aqui informacion sobre mi pag web.
+
+##PROYECTO FINAL ESTADISTICA DESCRIPTIVA Y EXPLORATORIA
+
+
+
+![](poster.png)
