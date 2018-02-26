@@ -11,14 +11,13 @@ navbar:
     icon: fa-line-chart
     href: about.html
   - text: Densidades
-    icon: ion-stats-bars
+    icon: ion-stats- bars
     href: densidades.html
-right:
+  right:
   - text: "Email"
     icon: fa-envelope-o
-    href: mailto:marestrepohi@unal.edu.co                      
-  - text: ""
-    icon: fa-github
+    href: mailto:marestrepohi@unal.edu.co
+  - icon: fa-github
     href: https://github.com/marestrepohi
 output:
   html_document:
