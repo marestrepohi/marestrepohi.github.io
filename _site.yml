@@ -11,6 +11,7 @@ navbar:
     icon: fa-line-chart
     href: about.html
   - text: Densidades
+    icon: ion-stats-bars
     href: densidades.html
 right:
   - text: "Email"

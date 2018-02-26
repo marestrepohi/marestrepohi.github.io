@@ -3,7 +3,7 @@ title: "Sobre mi"
 ---
 
 
-![](mateo.png)
+<center>![](mateo.png)</center>
 
 
 ### Quien Soy 
